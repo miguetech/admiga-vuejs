@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1, h2{
+        font-family: 'Kanit', sans-serif;
+    }
+    p, ul{
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+
+
+/* Cambios Generales de la pagina */
+/* Comienzo Apuntador */
+*{
+    cursor: url(./assets/puntero/apuntador.png), auto;
+
+}
+a, button, a>figure> img, a> img, button > img, button> h2, button>i, button > span{
+    cursor: url(./assets/puntero/manita.png), auto!important;
+}
+html{
+    scroll-behavior: smooth;
+  }
+/* fin Apuntador */
